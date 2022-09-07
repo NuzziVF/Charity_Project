@@ -7,14 +7,16 @@
   <div class="scroll-left">
     <p><script src="scripting.js"></script></p>
   </div>
+  <script src="background_change.js"></script>
 </head>
 
 <body>
   <div id="first_charity">
     <img src="Sample_picture.png" />
   </div>
-  <div id="Text">
-    <h1>Donate to the cause</h1>
+  <div class="Text">
+    <h1>Welcome to Charity²!!</h1>
+    <h2>Donate to the cause</h2>
     <p>
       Charities fail all of the time and there is no-one there to support them.
       Send your Money here and we will help out the charities that fail the
@@ -22,11 +24,18 @@
       to special to understand.
     </p>
     <h2>Where is our money going?</h2>
-    <p>
-      We guarantee 100% of your money goes to the charities listed and we even
-      provide the name of the charity your money goes too.
-    </p>
+    <div id="annoyingtext">
+      <p>
+        We guarantee 100% of your money goes to the charities listed and we even
+        provide the name of the charity your money goes too.
+      </p>
+    </div>
   </div>
+  <div class="popup" onclick="myFunction()">
+    <button type="button">Donate Now!!!</button>
+    <span class="popuptext" id="myPopup">Your Donation is appreciated</span>
+  </div>
+  <script src="popup.js"></script>
   <div id="second_charity">
     <img src="Sample_picture.png" />
   </div>

@@ -32,9 +32,6 @@ img {
   text-align: center;
 }
 
-#annoyingtext {
-}
-
 #first_charity {
   float: left;
   position: absolute;
@@ -54,14 +51,14 @@ img {
 #third_charity {
   float: right;
   position: absolute;
-  top: 210px;
+  top: 270px;
   left: 1050px;
 }
 
 #fourth_charity {
   float: right;
   position: absolute;
-  top: 360px;
+  top: 390px;
   left: 1050px;
 }
 
